@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="Stylesheet">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+
+    <form method="post" id="fcontacto" action="mailto:forma.mariana@gmail.com" oninput="">
+
+        <fieldset id="utilizador">
+            <legend>Identificação do utilizador</legend>
+            <p>Nome: <input type="text" name="gender" id="cname" size="20" maxlength="100"></p>
+            <p>Género: <input type="radio" name="gender" id="cmale"><label for="male">Masculino</label>
+                       <input type="radio" name="gender" id="cfemale"><label for="female">Feminino</label>
+                       <input type="radio" name="gender" id="cother"><label for="other">Outro</label></p>
+            <p>E-mail: <input type="email" name="temail" id="cemail" size="30" maxlength="100"></p>
+            <p><textarea id="contact" name="contact" rows="15" cols="50" placeholder="Escreva a sua mensagem..."></textarea></p>
+            <input type="button" name="send" id="send" value="Enviar">
+        </fieldset>
+</body>
+
+</html>
